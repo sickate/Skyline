@@ -25,7 +25,7 @@ end
 module Skyline
   mattr_accessor :logger
 
-  autoload :AbstractAction, 'skyline/action'
+  autoload :AbstractAction, 'skyline/abstract_action'
   autoload :Body, 'skyline/body'
   autoload :Callbacks, 'skyline/callbacks'
   autoload :FiberPool, 'skyline/fiber_pool'
