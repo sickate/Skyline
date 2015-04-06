@@ -20,11 +20,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  s.add_dependency('activesupport',   '~> 4.2.0')
-  s.add_dependency('rack',            '~> 1.6.0')
-  s.add_dependency('eventmachine',    '~> 1.0.3')
-  s.add_dependency('faye-websocket',  '~> 0.9.2')
-  s.add_dependency('thor',            '~> 0.19.0')
+  spec.add_dependency('activesupport',   '~> 4.2.0')
+  spec.add_dependency('rack',            '~> 1.6.0')
+  spec.add_dependency('eventmachine',    '~> 1.0.3')
+  spec.add_dependency('faye-websocket',  '~> 0.9.2')
+  spec.add_dependency('thor',            '~> 0.19.0')
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
