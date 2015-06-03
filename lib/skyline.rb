@@ -16,7 +16,7 @@ require 'faye/websocket'
 EM.epoll
 
 begin
-  require 'fiber'
+  require 'vendor/fiber'
   require File.join(File.dirname(__FILE__), 'fiber_pool')
 rescue LoadError
   # No fibers available!
