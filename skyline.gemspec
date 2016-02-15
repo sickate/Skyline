@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('activesupport',   '~> 4.2.0', '>= 4.2.0')
   spec.add_dependency('rack',            '~> 1.6.0', '>= 1.6.0')
-  spec.add_dependency('eventmachine',    '~> 1.0.3')
+  spec.add_dependency('eventmachine',    '~> 1.0.9')
   spec.add_dependency('faye-websocket',  '~> 0.9.2')
   spec.add_dependency('thor',            '~> 0.19.0')
 
