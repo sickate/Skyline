@@ -1,7 +1,7 @@
 require "skyline/version"
 
 require 'eventmachine'
-require 'active_support'
+require 'active_support/all'
 require 'active_support/core_ext/class/attribute'
 require 'active_support/core_ext/class/attribute_accessors'
 require 'active_support/core_ext/module/aliasing'
